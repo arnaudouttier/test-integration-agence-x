@@ -39,6 +39,7 @@
   --card_text_color: var(--primary_color);
 
   /* Card-header */
+  
   --card_header_margin_bottom: clamp(
     27px,
     calc(1.6875rem + ((1vw - 3.2px) * 0.7102)),
