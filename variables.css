@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap");
+
+:root {
+  /* COLORS */
+
+  --primary_color: #272a45;
+
+  /* FONTS */
+
+  --primary_font: "Poppins", sans-serif;
+
+  /* PAGE */
+
+  --page_bg_color: #ffffff;
+
+  /* HEADER */
+
+  --header_bg_color: #ffead9;
+  --header_text_color: #f8485e;
+  --header_padding_mobile: 48px 16px;
+  --header_padding_desktop: 30px 0 40px 0;
+  --header_logo_margin_bottom: 21px;
+  --header_title_font_size: clamp(
+    16px,
+    calc(1rem + ((1vw - 3.2px) * 1.1364)),
+    24px
+  );
+
+  /* MAIN */
+
+  --main_width: min(90vw, 1100px);
+  --main_margin: clamp(48px, calc(3.125rem + ((1vw - 3.2px) * 4.2614)), 80px)
+    auto 0 auto;
+  --main_gap: 37px 64px;
+
+  /* CARDS */
+
+  --card_margin_bottom: 48px;
+  --card_text_color: var(--primary_color);
+
+  /* Card-header */
+  --card_header_margin_bottom: clamp(
+    27px,
+    calc(1.6875rem + ((1vw - 3.2px) * 0.7102)),
+    32px
+  );
+  --card_header_column_gap: 20px;
+  --card_header_title_font_size: clamp(
+    18px,
+    calc(1.125rem + ((1vw - 3.2px) * 1.4205)),
+    28px
+  );
+  --card_header_title_font_weight: 600;
+  --card_header_title_border_width: clamp(
+    56px,
+    calc(3.5rem + ((1vw - 3.2px) * 5.5398)),
+    95px
+  );
+  --card_header_title_border_color: var(--primary_color);
+  --card_header_title_opacity: 0.9;
+
+  /* Card-content */
+
+  --card_content_font_size: clamp(
+    14px,
+    calc(0.875rem + ((1vw - 3.2px) * 0.142)),
+    15px
+  );
+  --card_content_font_weight: 400;
+  --card_content_line_height: clamp(
+    21px,
+    calc(1.3125rem + ((1vw - 3.2px) * 0.6637)),
+    24px
+  );
+  --card_content_letter_spacing: 0.5px;
+}
